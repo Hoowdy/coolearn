@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/coolearn/static/css/main.bcd6431b.css",
-    "main.js": "/coolearn/static/js/main.3d7d8329.js",
+    "main.js": "/coolearn/static/js/main.f2abba83.js",
     "index.html": "/coolearn/index.html",
     "main.bcd6431b.css.map": "/coolearn/static/css/main.bcd6431b.css.map",
-    "main.3d7d8329.js.map": "/coolearn/static/js/main.3d7d8329.js.map"
+    "main.f2abba83.js.map": "/coolearn/static/js/main.f2abba83.js.map"
   },
   "entrypoints": [
     "static/css/main.bcd6431b.css",
-    "static/js/main.3d7d8329.js"
+    "static/js/main.f2abba83.js"
   ]
 }
