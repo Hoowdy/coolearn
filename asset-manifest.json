@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/coolearn/static/css/main.bcd6431b.css",
+    "main.js": "/coolearn/static/js/main.994c82f3.js",
+    "index.html": "/coolearn/index.html",
+    "main.bcd6431b.css.map": "/coolearn/static/css/main.bcd6431b.css.map",
+    "main.994c82f3.js.map": "/coolearn/static/js/main.994c82f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcd6431b.css",
+    "static/js/main.994c82f3.js"
+  ]
+}
