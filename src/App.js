@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import { AuthProvider } from './components/context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Navbar from './components/Navbar';
@@ -12,7 +12,7 @@ import Register from './components/Register';
 function App() {
   return (
     <AuthProvider>
-      <Router basename="/coolearn">
+      <HashRouter basename="/coolearn">
         <Navbar />
         <Routes>
           {/* Public Routes */}
@@ -27,7 +27,7 @@ function App() {
             <Route path="/profile/:id" element={<ProfileById />} />
           </Route>
         </Routes>
-      </Router>
+      </HashRouter>
     </AuthProvider>
   );
 }
