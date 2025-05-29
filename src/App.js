@@ -12,7 +12,7 @@ import Register from './components/Register';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/coolearn">
         <Navbar />
         <Routes>
           {/* Public Routes */}
