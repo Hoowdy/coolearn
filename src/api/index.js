@@ -1,10 +1,15 @@
 import axios from 'axios';
 
+const API_URL = process.env.BACKEND_API_BASEURL
+
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: `${API_URL}/api`,
 });
 
+
 api.interceptors.request.use((config) => {
+  config.headers["ngrok-skip-browser-warning"] = "Yes";
+
   const token = localStorage.getItem('token');
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;

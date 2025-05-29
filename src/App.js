@@ -12,7 +12,7 @@ import Register from './components/Register';
 function App() {
   return (
     <AuthProvider>
-      <HashRouter basename="/coolearn">
+      <Router basename="/coolearn">
         <Navbar />
         <Routes>
           {/* Public Routes */}
@@ -27,7 +27,7 @@ function App() {
             <Route path="/profile/:id" element={<ProfileById />} />
           </Route>
         </Routes>
-      </HashRouter>
+      </Router>
     </AuthProvider>
   );
 }
